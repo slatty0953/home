@@ -1,0 +1,253 @@
+h2,h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #7149C6;
+    padding-top: 10px;
+    margin-bottom:0;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+nav a{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+nav a:hover {
+    color: #FE6244;
+}
+
+main{
+    min-height: 40vmax;
+    /* max-height: 90vh; */
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    /* height: 225px; */
+    min-height: 23vh;
+}
+
+.main-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
+.main-success h1{
+    color: #7149C6;
+    font-size: 4rem;
+    padding-bottom: 0;
+}
+.main-success p{
+    font-size: 2rem;
+}
+
+.main-img{
+    height: auto;
+    float: right;
+    left: 0;
+    width:100%;
+}
+
+main h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    /* padding-top: 2.5%; */
+    padding-bottom: 3%;
+}
+main h3{
+    padding-top: 3%;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+}
+
+#services {
+    padding: 3% 7%;
+    background-color: #FE6244;
+    color:#FFDEB9;
+}
+
+#services h2 {
+    font-weight: 600;
+}
+
+.service-box{
+    padding: 40px;
+    text-align: center; 
+}
+
+#services h4{
+    font-size:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+i {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#contact{
+    padding: 3% 7%;
+}
+
+#contact h2{
+    font-weight: 600;
+}
+
+
+.container{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+}
+
+form h3{
+    color: #373a40;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+form input, form textarea{
+    border: 0;
+    border-radius: 10px;
+    color: #000;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #7149c642;
+    font-size: 18px;
+}
+
+form input::placeholder, form textarea::placeholder {
+    font-style: italic;
+}
+
+form p{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.submit-btn{
+    border-color: #7149C6;
+    border-radius: 10px;
+    color: #7149C6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.submit-btn:hover{
+    background-color: #7149C6;
+    color: #FE6244;
+    
+}
+
+footer h5{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+footer p{
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #FFDEB9;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #7149C6;
+    color: #FFDEB9;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .disappear{
+        display:none;
+    }
+
+    main{
+        margin-top: 20px;
+        min-height: 60vh;
+       
+    }
+
+    main h1{
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 2.5rem;
+    
+    }
+    main h3{
+        font-size: 2rem;
+        padding-top: 7%;
+        padding-bottom: 20px;
+    }
+
+    #services h2{
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+
+    #contact h2{
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+     .submit-btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+
+     footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+     }
+}
